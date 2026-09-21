@@ -13,3 +13,10 @@ Urban Tempo currently relies on spreadsheets and post-failure maintenance logs. 
 
 ### Strategic Alignment & Benefits
 The project supports Urban Tempo's goal of creating a more reliable and efficient public transit system. Key benefits include reduced maintenance costs, fewer vehicle breakdowns, improved fleet availability, better route coordination, and increased rider satisfaction.
+
+| Team Member            | IT Project Role       |
+| ---------------------- | --------------------- |
+| **Benjamin Ferguson**  | Project Manager       |
+| **Andrew Hendrickson** | Systems Architect     |
+| **Charles Jaramillo**  | Lead Business Analyst |
+| **Jack Kanis**         | QA & Testing Lead     |
