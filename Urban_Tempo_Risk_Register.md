@@ -35,9 +35,6 @@ Score = Probability (1-3) × Impact (1-3)
 | R-06 | Transit Director requested a passenger-crowding feature; no decision recorded | Scope | 2 (Medium) | 3 (High) | 6 | Control | Record the decision in the change board log; move to Phase 2 backlog; re-plan if approved | Lead Business Analyst | Active | 2026-11-02 |
 | R-07 | Team lacks data science, IoT and security skills | Resource | 3 (High) | 2 (Medium) | 6 | Mitigate | Use managed cloud IoT and ML services; ask sponsor for part-time experts; cross-train backups | Project Manager | Active | 2026-11-02 |
 | R-08 | Staff used to spreadsheets may not adopt the system; no training owner in the RACI | Stakeholder | 3 (High) | 2 (Medium) | 6 | Mitigate | Assign a training owner; role-based guides; one champion per depot; run old process in parallel | Lead Business Analyst | Active | 2026-11-02 |
-| R-09 | Budget is not defined; hardware for 350 vehicles could exceed funding | Financial | 2 (Medium) | 3 (High) | 6 | Mitigate | Build cost estimate with 10-15% buffer; buy hardware in phases; prepare pilot-only plan | Project Manager | Active | 2026-11-02 |
-| R-10 | Vehicle and GPS data could be hacked or misused (security and privacy) | External | 2 (Medium) | 3 (High) | 6 | Mitigate | Encrypt data; control access; set data-retention policy; security review before pilot | Systems Architect | Active | 2026-11-02 |
-
 ## Risks Identified
 
 | Epic | Related Risks |
@@ -46,21 +43,21 @@ Score = Probability (1-3) × Impact (1-3)
 | Maintenance | R-04, R-05 |
 | Routing | R-05, R-06 |
 | Training | R-08 |
-| Whole project | R-01, R-07, R-09, R-10 |
+| Whole project | R-01, R-07, |
 
 ## Owners
 
 | Role | Person | Owns |
 |------|--------|------|
-| Project Manager | Benjamin Ferguson | R-01, R-07, R-09 |
-| Systems Architect | Andrew Hendrickson | R-02, R-03, R-05, R-10 |
+| Project Manager | Benjamin Ferguson | R-01, R-07, |
+| Systems Architect | Andrew Hendrickson | R-02, R-03, R-05, |
 | Lead Business Analyst | Charles Jaramillo | R-06, R-08 |
 | QA & Testing Lead | Jack Kanis | R-04 |
 
 ## Response Strategies Used
 
 - **Avoid**: Shrink the Nov 20 launch to a pilot (R-01)
-- **Mitigate**: Rule-based alerts, pilot hardware tests, test plan, cloud services (R-02 to R-05, R-07 to R-10)
+- **Mitigate**: Rule-based alerts, pilot hardware tests, test plan, cloud services (R-02 to R-05, R-07 to R-8 )
 - **Control**: Change control board log for the crowding feature request (R-06)
 
 ## Weekly Risk Review Questions
